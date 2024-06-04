@@ -1,0 +1,56 @@
+body {
+  background-image: url(prediction_back.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh; /* Set the height of the body to 100% of viewport height */
+}
+
+form {
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  height: 100%; /* Set the height of the form to 100% */
+}
+
+input[type="text"],
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px; /* Add margin-top to move the button downwards */
+    border-radius: 5px;
+    border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+label {
+  font-size: 16px;
+  margin-top: 20px;
+  display: block;
+}
+
+/* Media query for mobile screens */
+@media only screen and (max-width: 600px) {
+  form {
+      padding: 10px;
+  }
+
+  label {
+      font-size: 14px;
+      margin-top: 10px;
+  }
+}
